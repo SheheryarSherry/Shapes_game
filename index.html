@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Match Shape</title>
+    <style>
+      body { margin: 0px; padding: 0px; background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/billie_holiday.png)}
+      #reset { position: absolute; z-index: 999 }
+      a {text-decoration: none; color: #000}
+    </style>
+  </head>
+  <body>
+    <!-- reset not working on firefox -->
+    <div id="reset" style="visibility:hidden"><button id="resetbtn"  onclick="javascript:reset()">Reset</button></div>
+    <div id="container"></div>
+
+    <script type="text/javascript" src="kinetic-v4.5.4.min.js"></script>
+    <script type="text/coffeescript" src="mls.coffee"></script>
+    <script type="text/javascript" src="coffee-script.js"></script>
+    <script type="text/javascript">
+      function reset() {
+        document.location.reload();
+        //document.location.href=location.origin+'?'+Date.parse(new Date())
+      }
+    </script>
+  </body>
+</html>

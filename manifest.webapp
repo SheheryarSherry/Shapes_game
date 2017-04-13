@@ -1,0 +1,13 @@
+{
+  "name": "Match Shapes",
+  "description": "Shape-matching game for kids",
+  "launch_path": "/",
+  "icons": {
+    "128": "/img/icon-128.png"
+  },
+  "developer": {
+    "name": "Sheheryar Khan",
+  },
+  "version": "0.0.1",
+  "default_locale": "en"
+}
